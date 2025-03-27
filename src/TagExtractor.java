@@ -34,7 +34,7 @@ public class TagExtractor extends JFrame {
         mainPnl.add(outputPnl, BorderLayout.CENTER);
 
         titlePnl = new JPanel();
-        JLabel titleLbl = new JLabel("Rock Paper Scissors", JLabel.CENTER);
+        JLabel titleLbl = new JLabel("Tag Extractor", JLabel.CENTER);
         titleLbl.setFont(new Font("Serif", Font.PLAIN, 30));
         titleLbl.setBorder(new EmptyBorder(0, 0, 20, 0));
         titlePnl.add(titleLbl);
